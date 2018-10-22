@@ -51,7 +51,7 @@ However, this is completely optional as Anaconda is an all-in-one package manage
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Because Python 2 already comes installed in Mac and decided to have Python3 also available to be able to use either version when necessary.
 
 ### Q2. Which Python Version Installed   
 
