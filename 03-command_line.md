@@ -82,5 +82,5 @@ What does `xargs` do? Give an example of how to use it.
 
 > > It is a command used to build and execute commands from standard input. It reads streams of data from standard input, then generates and executes command lines; thus it can take output of a command and pass it as argument of another command.
 
-> > Example: **ls | xargs -n 10 echo** This command will generate a list of files names and directories but specifies how many file names or directory names are processed by echo on each iteration, in this case it would be 10.
+> > Example: **ls | xargs -n 10 echo**: This command will generate a list of files names and directories but specifies how many file names or directory names are processed by echo on each iteration, in this case it would be 10.
 
