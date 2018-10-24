@@ -84,4 +84,3 @@ What does `xargs` do? Give an example of how to use it.
 
 > > Example: **ls | xargs -n 10 echo** This command will generate a list of files names and directories but specifies how many file names or directory names are processed by echo on each iteration, in this case it would be 10.
 
->> This is an example for github commit through terminal
