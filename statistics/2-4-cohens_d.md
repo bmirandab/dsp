@@ -1,7 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
 ### Creating Function for Cohen's d
-```
+```python
 # Import libraries
 import nsfg
 import first
@@ -23,7 +23,7 @@ def CohenEffectSize(group1, group2):
 ```
 ### Applying Code 
 
-```
+```python
 # Apply function to problem
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 -0.08865350345261151
