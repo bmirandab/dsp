@@ -1,5 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
+### Creating Function for Cohen's d
 ```
 # Import libraries
 import nsfg
@@ -20,11 +21,16 @@ def CohenEffectSize(group1, group2):
     d = mean_diff / pooled_std
     return d
 ```
+### Applying Code 
+
 ```
 # Apply function to problem
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 -0.08865350345261151
 ```
 
+### Solution Explanation
 
-
+When interpreting Cohen's d, the general rule of thumb is that if the result is less than 0.5 the effect size 
+is considered small. Therefore, even though the result is higher than in pregnancy lengths, the effect is still small, 
+it can only be determined through a careful study.
