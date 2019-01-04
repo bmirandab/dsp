@@ -14,8 +14,7 @@ pmf = thinkstats2.Pmf(resp.numkdhh, label = 'numkdhh')
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 ```
-
-
+![Actual PMF](https://github.com/bmirandab/dsp/blob/master/PMF(Actual).png)
 
 ### Computing Biased Distribution
 ```python
@@ -29,7 +28,7 @@ def BiasPmf(pmf, label):
     new_pmf.Normalize()
     return new_pmf
 ```
-### Applying Function and Plotting Results
+### Applying Function and Plotting Comparative Results
 
 ```python
 # Apply function to pmf
@@ -39,6 +38,8 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 ```
+![Actual PMF](https://github.com/bmirandab/dsp/blob/master/PMF(Actual:Biased).png)
+
 ### Computing Means
 ```python
 pmf.Mean()
@@ -46,8 +47,3 @@ biased.Mean()
 1.024205155043831
 2.403679100664282
 ```
-### Solution Explanation
-
-When interpreting Cohen's d, the general rule of thumb is that if the result is less than 0.5 the effect size 
-is considered small. Therefore, even though the result is higher than in pregnancy lengths, the effect is still small, 
-it can only be determined through a careful study.
