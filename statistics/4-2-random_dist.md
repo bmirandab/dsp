@@ -1,6 +1,6 @@
 [Think Stats Chapter 4 Exercise 2](http://greenteapress.com/thinkstats2/html/thinkstats2005.html#toc41) (a random distribution)
 
-### Calculating PMF and Plotting Results
+### Generating Data
 ```python
 # Import libraries
 import thinkstats2
