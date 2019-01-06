@@ -86,14 +86,32 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+#### Identifying Variables
+```
+P(I) = Probability of Identical Twin
+P(F) = Probability of Fraternal Twin
+P(B) = Probability of Being Boy
+```
+#### Applying Bayes Theorem
+```
+P(I | (I or F) B) = P(IB) / (Pr(IB) + P(B | F) Pr(F)) 
 
----
+P(I | (I or F) B) = (1/300 * 1/1) / ((1/300 * 1/1) + (1/2 * 1/125))
+
+P(I | (I or F) B) = (1/300) / (1/300 + 1/250)
+
+P(I | (I or F) B) = (1/300) / (11/1500)
+
+P(I | (I or F) B) = 5/11
+```
+
+#### Solution Explanation
+The chances of Elvis having an identical twin brother is 5/11 or roughly around 45%
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Frequentists see probability as long-term frequencies of random experiences that can be repeated, where parameters and probabilities remain constant. While in Bayesian probability, parameters of distribution don't necessarily change, but our uncertainty about them change with additional information that we gather. Another important facter are priors, when priors are not known, Bayesians develop one based on the best available information, which can be known as 'subjective prior', while Frequentists do not require a prior. Lastly, Frequentists do not attach probabilities to hypothesis, only on data given a hypothesis; while Bayesians use probability for both hypothesis and data.
 
 ---
 
